@@ -108,9 +108,7 @@ class MainActivity : AppCompatActivity() {
 //            chart.setPinchZoom(true)
         chart.getViewPortHandler().setMaximumScaleX(2f)
         chart.getViewPortHandler().setMaximumScaleY(2f)
-        if (labels != null)
-            chart.marker = BuLineChartMarkerView(this, R.layout.single_marker_chart, ArrayList<String>(labels))
-
+        
         val axis = chart.xAxis
         axis.setPosition(XAxis.XAxisPosition.BOTTOM)
         axis.textSize = 8f
