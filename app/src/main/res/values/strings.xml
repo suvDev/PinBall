@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PinBall</string>
+    <string name="coefficient">Select Coefficient</string>
+</resources>
